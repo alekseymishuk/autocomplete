@@ -1,0 +1,31 @@
+.css-container {
+    position: relative;
+    display: inline-block;
+}
+
+.css-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.css-input:focus {
+    outline: none;
+}
+
+.css-clear,
+.css-loading {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.css-clear:hover {
+    color: red;
+
+    cursor: pointer;
+}
